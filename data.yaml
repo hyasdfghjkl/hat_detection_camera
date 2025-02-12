@@ -1,0 +1,8 @@
+
+path: "D:/job_hunting/Hat_test/helmet_yolo"  # 数据集路径
+train: images/train  # 训练集图像路径
+val: images/val  # 验证集图像路径
+test: images/test  # 测试集图像路径
+
+nc: 2  # 类别数量（佩戴头盔和未佩戴头盔）
+names: ['no_helmet', 'helmet']  # 类别名称
